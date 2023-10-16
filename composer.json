@@ -1,0 +1,31 @@
+{
+    "name": "jmlaureano/laravel-console-reader",
+    "description": "A Laravel package to waste time reading crap in the console",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Justin Laureano",
+            "email": "jmlaureano87@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^10.8"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+          	"Jmlaureano\\LaravelConsoleReader\\": "src"
+        }
+    },
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Jmlaureano\\LaravelConsoleReader\\LaravelConsoleReaderServiceProvider"
+			]
+		}
+	}
+}
