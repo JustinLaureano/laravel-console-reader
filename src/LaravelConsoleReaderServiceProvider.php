@@ -3,8 +3,8 @@
 namespace Jmlaureano\LaravelConsoleReader;
 
 use Illuminate\Support\ServiceProvider;
-use Prospira\LaravelDeployer\Console\Commands\Links;
-use Prospira\LaravelDeployer\Console\Commands\Post;
+use Jmlaureano\LaravelConsoleReader\Console\Commands\Links;
+use Jmlaureano\LaravelConsoleReader\Console\Commands\Post;
 
 class LaravelConsoleReaderServiceProvider extends ServiceProvider
 {
